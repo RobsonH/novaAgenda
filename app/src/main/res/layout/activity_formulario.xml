@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_foto"
+            android:id="@+id/formulario_foto"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_camera"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:id="@+id/formulario_btn_foto"/>
+
+    </RelativeLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/formulario_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/formulario_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/formulario_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/formulario_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SALVAR" />
+
+</LinearLayout>
